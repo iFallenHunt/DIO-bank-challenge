@@ -22,14 +22,8 @@ The class provides methods to set and get these attributes, as well as a method 
 
 
 ## How to Use
-1. Create a new  `BankAccount`  object:
-BankAccount account = new BankAccount(12345, "Main Branch", "John Doe", 1000.0);
+Just run the application via the IDE you want, or via the terminal via the bin file.
 
-2. Create a new account via terminal input:
-BankAccount newAccount = BankAccount.createAccountViaTerminal();
-
-3. Display a confirmation message:
-account.displayAccountCreatedMessage();
 🏦 Happy banking! 🤑
 
 
