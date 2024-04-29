@@ -16,11 +16,9 @@ The class provides methods to set and get these attributes, as well as a method 
 -  `displayAccountCreatedMessage()`  method to display a confirmation message with account details
 
 ## Usage
-1. Create a new  `BankAccount`  object by providing the account number, agency, client's name, and balance.
+1. Create a new `BankAccount` object by providing the account number, agency, client's name, and balance.
 
-2. Use the  `createAccountViaTerminal()`  method to create an account via terminal input.
-
-3. Display a confirmation message with account details using the  `displayAccountCreatedMessage()`  method.
+2. A confirmation message with account details using the `displayAccountCreatedMessage()` method will be displayed.
 
 
 ## How to Use
