@@ -1,18 +1,39 @@
-## Getting Started
+# Bank Account Class
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This Java program defines a  `BankAccount`  class that represents a simple bank account with attributes such as account number, agency, client name, and balance.
 
-## Folder Structure
+The class provides methods to set and get these attributes, as well as a method to create a new account via the terminal and display a message confirming the account creation.
 
-The workspace contains two folders by default, where:
+## Features
+-  `BankAccount`  class with attributes: number, agency, clientName, balance
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Getter and setter methods for each attribute
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+-  `createAccountViaTerminal()`  method to create a new account via user input
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+-  `displayAccountCreatedMessage()`  method to display a confirmation message with account details
 
-## Dependency Management
+## Usage
+1. Create a new  `BankAccount`  object by providing the account number, agency, client's name, and balance.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+2. Use the  `createAccountViaTerminal()`  method to create an account via terminal input.
+
+3. Display a confirmation message with account details using the  `displayAccountCreatedMessage()`  method.
+
+
+## How to Use
+1. Create a new  `BankAccount`  object:
+BankAccount account = new BankAccount(12345, "Main Branch", "John Doe", 1000.0);
+
+2. Create a new account via terminal input:
+BankAccount newAccount = BankAccount.createAccountViaTerminal();
+
+3. Display a confirmation message:
+account.displayAccountCreatedMessage();
+🏦 Happy banking! 🤑
+
+
+
+### License
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/iFallenHunt/DIO-bank-challenge/blob/main/LICENSE) file for details.
+
